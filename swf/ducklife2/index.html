@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="ruffle.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"> </div>
+
+    <script src="/swf/ruffle.js"></script>
+        <script>
+            window.addEventListener("load", (event) => {
+                const ruffle = window.RufflePlayer.newest();
+                const player = ruffle.createPlayer();
+                const container = document.getElementById("container"); 
+                container.appendChild(player);
+                player.load({
+                    url: "ducklife2b.swf", 
+                    backgroundColor: "#000", 
+                 });
+                 player.style.width = window.innerWidth-8+"px"; 
+                player.style.height = window.innerHeight-20+"px";
+            });
+            
+        </script>
+    
+</body>
+</html>
