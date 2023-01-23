@@ -7,22 +7,62 @@
     <title>404 :p</title>
  <style>
     #spin {
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
+    animation-delay: 0;
     -webkit-animation: myanimation 5s;
-    animation: myanimation 5s;
+    animation: myanimation 5s;}
+    .center-screen {
+        width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
+
 @-webkit-keyframes myanimation {
-    100% { margin-left: 400px; -webkit-transform: rotate(360deg); }
+    10% { -webkit-transform: scale(1); }
+    20% { -webkit-transform: scale(2); }
+    30% { -webkit-transform: scale(3); }
+    40% { -webkit-transform: scale(4); }
+    50% { -webkit-transform: scale(5); }
+    60% { -webkit-transform: scale(6); }
+    70% { -webkit-transform: scale(7); }
+    80% { -webkit-transform: scale(8); }
+    90% { -webkit-transform: scale(9); }
+    91% { -webkit-transform: scale(9); }
+    92% { -webkit-transform: scale(9); }
+    93% { -webkit-transform: scale(9); }
+    94% { -webkit-transform: scale(9); }
+    95% { -webkit-transform: scale(9); }
+    100% { -webkit-transform: scale(100); }
 }
 
 @keyframes myanimation {
-    100% { margin-left: 400px; transform: rotate(360deg); }
+    10% { transform: scale(1); }
+    20% { transform: scale(2); }
+    30% { transform: scale(3); }
+    40% { transform: scale(4); }
+    50% { transform: scale(5); }
+    60% { transform: scale(6); }
+    70% { transform: scale(7); }
+    80% { transform: scale(8); }
+    90% { transform: scale(9); }
+    91% { transform: scale(9); }
+    92% { transform: scale(9); }
+    93% { transform: scale(9); }
+    94% { transform: scale(9); }
+    95% { transform: scale(9); }
+    100% { transform: scale(100); }
 }
  </style>   
 </head>
 <body>
-    <img src="hour-glass-dog-dog-spin.gif" alt="Your web browser can not display this" style="width:48px;height:48px;">
+    <div id="spin" class="center-screen">
+        <img src="hour-glass-dog-dog-spin.gif" alt="Your web browser can not display this" style="width:48px;height:48px;">
+    </div>
+    
 </body>
 </html>
