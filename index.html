@@ -10,26 +10,136 @@
    <h2>Games</h2>
    <button onclick="window.location.href = 'swf';">Flash Games</button>
    <br></br>
-   <button onclick="window.location.href = 'baldi';">Baldi's Basics in Education And Learning "Web Edition"</button>
+   <button onclick="myFunction()">Baldi's Basics in Education And Learning "Web Edition"</button>
 <br></br>
-   <button onclick="window.location.href = 'MSC2-WEBGL';">Madalin Stunt Cars 2</button>
+   <button onclick="myFunction2()">Madalin Stunt Cars 2</button>
    <br></br>
-   <button onclick="window.location.href = 'cookie';">Cookie Clicker (Owner = Orteil)</button>
+   <button onclick="myFunction3()">Cookie Clicker (Owner = Orteil)</button>
    <br></br>
-   <button onclick="window.location.href = 'ctr';">Cut the Rope</button>
+   <button onclick="myFunction4()">Cut the Rope</button>
    <br></br>
-   <button onclick="window.location.href = 'dino';">Chrome Dino Enhanced</button>
+   <button onclick="myFunction5()">Chrome Dino Enhanced</button>
    <br></br>
-   <button onclick="window.location.href = 'surf';">Microsoft Edge Ski Spinoff</button>
+   <button onclick="myFunction6()">Microsoft Edge Ski Spinoff</button>
   
    <br></br>
-   <button onclick="window.location.href = 'Slope';">Slope</button>
+   <button onclick="myFunction7()">Slope</button>
    <br></br>
-   <button onclick="window.location.href = '2048';">2048</button>
+   <button onclick="myFunction8()">2048</button>
    <br></br>
    
 </body>
 </html>
+<script>
+    function myFunction8() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/2048";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction7() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/Slope";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction6() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/surf";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction5() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/dino";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction4() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/ctr";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction3() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/cookie";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction2() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/MSC2-WEBGL";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+    function myFunction() {
+        const iframe = document.createElement("iframe");
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = "https://games.magicpotatochip.charity/baldi";
+        const style = document.createElement('style');
+        style.innerHTML = '* { margin: 0; }';
+        const win = window.open();
+        win.document.body.appendChild(iframe);
+        win.document.head.appendChild(style);
+    }
+ 
+</script>
+
+
+
 <!--/*setTimeout(async () => {*\
    const inpass = prompt('Password please');
      if (inpass != 'access') {
